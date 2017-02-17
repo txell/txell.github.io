@@ -1,0 +1,120 @@
+
+body {
+    background-color: #EFEFEF;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+div {
+    margin: 20px;
+}
+
+/* Navbar */
+nav{
+    height: 50px;
+    background-color: #F08A5D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF175;
+}
+
+.rightmenu{
+    margin: 10x;
+}
+span{
+    margin: 10px;
+}
+
+
+h2{
+    font-size: 25px;
+    color: #FFF175;
+    padding: 15px;
+    font-family: 'Arsenal', sans-serif;
+
+    }
+
+         /**/
+
+     /* MAIN */
+
+main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+div.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+h1{
+    font-size: 50px;
+    color: #F08A5D;
+    font-family: 'Shadows Into Light Two', cursive;
+    padding: 50px;
+
+}
+
+h3{
+    font-size: 25px;
+    color: black;
+    padding: 15px;
+    font-family: 'Arsenal', sans-serif;
+}
+
+table, th, td{
+    background-color: white;
+    border-color: #F08A5D;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 5px #D1D1D1;
+    padding: 5px 10px 5px 10px;
+    }
+
+button{
+    background-color: #F08A5D;
+    font-size: 12px;
+    padding: 10px;
+    border-color: #F08A5D;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 4px;
+    margin: 20px;
+    color: #FFF175;
+
+}
+
+/* END OF MAIN */
+
+/*FOOTER*/
+
+footer{
+    height: 20%;
+    background-color: #19180B;
+    color: #EFEFEF;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    line-height: 25px;
+
+
+}
+
+footer>div{
+    padding: 30px;
+    width: 25%;
+}
+
+
+/* font-family: 'Shadows Into Light Two', cursive;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Arsenal', sans-serif;
